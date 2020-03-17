@@ -10,6 +10,8 @@
     <button (click)="deleteCourse(course)">
       Delete
     </button>
-    {{course.title}}
+    <a href="course/{{course._id}}">
+      {{course.title}}
+    </a>
   </li>
 </ul>
